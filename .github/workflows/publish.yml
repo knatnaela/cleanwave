@@ -10,6 +10,9 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Required for Trusted Publishing
+      contents: write # Required for bumping version and pushing changes
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,6 +38,4 @@ jobs:
         run: npm install
         
       - name: Publish to NPM
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public --provenance

@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-    "cleanwave": "./index.js"
+    "cleanwave": "index.js"
   },
   "keywords": [
     "clean",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/knatnaela/cleanwave"
+    "url": "git+https://github.com/knatnaela/cleanwave.git"
   },
   "bugs": {
     "url": "https://github.com/knatnaela/cleanwave/issues"

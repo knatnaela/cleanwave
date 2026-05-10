@@ -1,6 +1,6 @@
 {
   "name": "cleanwave",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "🌊 A premium, high-performance cleanup utility for Flutter and NPM projects. Reclaim gigabytes of space in seconds.",
   "type": "module",
   "main": "index.js",

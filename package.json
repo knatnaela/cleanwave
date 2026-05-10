@@ -1,0 +1,48 @@
+{
+  "name": "cleanwave",
+  "version": "2.0.0",
+  "description": "🌊 A premium, high-performance cleanup utility for Flutter and NPM projects. Reclaim gigabytes of space in seconds.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "cleanwave": "./index.js"
+  },
+  "keywords": [
+    "clean",
+    "cleanup",
+    "flutter",
+    "npm",
+    "node",
+    "utility",
+    "performance",
+    "space-saving",
+    "developer-tools"
+  ],
+  "author": "Natnael Adane",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knatnaela/cleanwave"
+  },
+  "bugs": {
+    "url": "https://github.com/knatnaela/cleanwave/issues"
+  },
+  "homepage": "https://github.com/knatnaela/cleanwave#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "figures": "^6.1.0",
+    "inquirer": "^13.4.2",
+    "ora": "^9.4.0",
+    "p-limit": "^7.3.0",
+    "pretty-bytes": "^6.1.1"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}

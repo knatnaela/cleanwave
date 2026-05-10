@@ -23,7 +23,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Remove token placeholder from .npmrc
+        run: sed -i '/^\/\/registry.npmjs.org\/:_authToken/d' ~/.npmrc
+
       - name: Configure Git
         run: |
           git config --global user.name 'github-actions[bot]'

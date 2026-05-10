@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// CleanWave: Reclaiming your disk space, one wave at a time.
+
 import fs from "fs";
 import path from "path";
 import os from "os";

@@ -32,6 +32,7 @@ jobs:
       - name: Bump version
         run: |
           npm version patch -m "chore: bump version to %s [skip ci]"
+          git pull --rebase origin main
           git push origin main
           
       - name: Install dependencies
